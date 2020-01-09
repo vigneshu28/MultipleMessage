@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
     public ArrayList<Contact> loadJSONFromAsset() {
         String json = null;
         try {
-            InputStream is = getAssets().open("convertcsv.json");
+            InputStream is = getAssets().open("convertcsvs.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
